@@ -9,6 +9,10 @@ const Products = db.define('products', {
         autoIncrement: true,
         allowNull: false,
     },
+    name: {
+        type: DataTypes.STRING,
+        allowNull: true
+    },
     category: {
         type: DataTypes.STRING,
         allowNull: false
